@@ -1,0 +1,48 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #f4677c, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.navbar-brand {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+.purple {
+  color: white;
+}
+.lead{
+  font-size: 18pt;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.carousel{
+  background-color: rgb(231, 229, 229);
+}
+
+
+
+
+/* Testimonials */
